@@ -1,0 +1,10 @@
+{
+    "port":"9615",
+    "resources":{
+            "root":"resources/",
+            "template":{
+                    "root":"public/templates",
+                    "layout":"layout"
+            }
+    }
+}
