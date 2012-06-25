@@ -1,6 +1,6 @@
 var exampleView = module.exports = {};
 
-var simpleportal = require("./../index");
+var simpleportal = require("./../lib/simpleportal");
 
 var util = simpleportal.util;
 var templateView = simpleportal.template;
