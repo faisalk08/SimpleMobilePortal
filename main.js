@@ -1,5 +1,5 @@
 var util = require('util');
 
-var simpleportal = require('./lib/simpleportal');
+var simpleportal = require('simpleportal');
 
-simpleportal.server.start();
+new simpleportal.server.Server().createServer();
