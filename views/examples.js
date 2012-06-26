@@ -1,11 +1,11 @@
 var exampleView = module.exports = {};
 
-var simpleportal = require("./../lib/simpleportal");
+var simpleportal = require("simpleportal");
 
 var util = simpleportal.util;
 var templateView = simpleportal.template;
 
-var exampleService = require("./../services/examples").service;
+var exampleService = require("simpleportal").services.examples.service;
 
 exampleView.view = {};
 
